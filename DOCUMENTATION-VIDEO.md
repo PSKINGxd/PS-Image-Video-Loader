@@ -89,6 +89,3 @@ glfwTerminate();
 1.  **VLC DLLs:** The `libvlc.dll` and `libvlccore.dll` files **must** be in the same directory as your `main.exe`.
 2.  **Plugins Folder:** For audio and video decoding to work, the `plugins/` folder from your installed VLC Media Player must be placed next to `main.exe`.
 3.  **Thread Safety:** VLC decodes frames on a background thread. This class uses a `std::mutex` to prevent race conditions. Never call `shutdown()` while the `draw()` loop is actively running.
-```
-
-Isse seedha utha ke `Video_Documentation.md` ke naam se save kar lo. Ab batao, aage kya karna hai?

@@ -21,12 +21,21 @@ if (!success) {
 }
 ```
 ### Drawing Methods
-1. ```
+1. Draw with Original Size
+```
     // Draws at x=100, y=100 using the image's native resolution
     myImage.draw(100.0f, 100.0f);
 ```
-2. ```
+
+2. Draw with Custom Scaling
+
+```
    // Draws at x=100, y=100 using the image's native resolution
    myImage.draw(100.0f, 100.0f); 
+```
+
+### Cleanup
+```
+myImage.shutdown(); // Always call this before the GLFW window closes
 ```
 

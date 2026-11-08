@@ -35,7 +35,7 @@ Make sure your project structure looks exactly like this before compiling:
  ┃ ┣ 📄 Image.h
  ┃ ┣ 📄 Video.h
  ┃ ┗ 📄 stb_image.h
- ┣ 📁 plugins/         (Copy this from VLC installed directory for audio/video)
+ ┣ 📁 plugins/         (Copy this from Downloaded VLC Media Player Directory)
  ┣ 📄 libvlc.dll       (Copy from VLC directory)
  ┣ 📄 libvlccore.dll   (Copy from VLC directory)
  ┗ 📄 main.cpp

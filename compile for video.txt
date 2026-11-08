@@ -1,0 +1,1 @@
+g++ main.cpp -Iheader -Iheader/vlc -L. -lvlc -lglew32 -lglfw3 -lopengl32 -lgdi32 -o main.exe; if($?){ ./main.exe }
